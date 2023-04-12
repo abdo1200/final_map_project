@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "10836628951",
+    "project_id": "fluttermaps-60d3b",
+    "storage_bucket": "fluttermaps-60d3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10836628951:android:e391939dfec69bfc902792",
+        "android_client_info": {
+          "package_name": "com.example.final_map_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10836628951-f988ltj435hg9ctkenvo71t2dgi11hfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrig2QmIecMttHpWxjBPHGrgaVzew80nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10836628951-f988ltj435hg9ctkenvo71t2dgi11hfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10836628951:android:de7dc8921d0a9adf902792",
+        "android_client_info": {
+          "package_name": "com.example.flutter_maps_youtube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10836628951-61tfsjvb87j1d4jqppimo4oq0sbu8gvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_maps_youtube",
+            "certificate_hash": "570c88b1b00d9f4edd487b1b247ae8d99b79340e"
+          }
+        },
+        {
+          "client_id": "10836628951-f988ltj435hg9ctkenvo71t2dgi11hfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrig2QmIecMttHpWxjBPHGrgaVzew80nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10836628951-f988ltj435hg9ctkenvo71t2dgi11hfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
