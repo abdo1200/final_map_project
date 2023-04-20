@@ -24,9 +24,9 @@ class PlaceItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 ListTile(
-                  contentPadding: EdgeInsets.all(0),
-                  minLeadingWidth: 10,
-                  leading: Icon(
+                  contentPadding: const EdgeInsets.all(0),
+                  minLeadingWidth: 40,
+                  leading: const Icon(
                     Icons.location_on,
                     color: MyColors.navy,
                   ),

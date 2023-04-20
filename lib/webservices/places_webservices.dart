@@ -8,8 +8,8 @@ class PlacesWebservices {
 
   PlacesWebservices() {
     BaseOptions options = BaseOptions(
-      connectTimeout: Duration(milliseconds: 20 * 1000),
-      receiveTimeout: Duration(milliseconds: 20 * 1000),
+      connectTimeout: const Duration(milliseconds: 20 * 1000),
+      receiveTimeout: const Duration(milliseconds: 20 * 1000),
       receiveDataWhenStatusError: true,
     );
     dio = Dio(options);
@@ -66,6 +66,27 @@ class PlacesWebservices {
         },
       );
       print("Omar I'm testing directions");
+
+      return response.data;
+    } catch (error) {
+      return Future.error("Place location error : ",
+          StackTrace.fromString(('this is its trace')));
+    }
+  }
+
+  Future<dynamic> getNearPlaces(LatLng origin) async {
+    try {
+      Response response = await dio.get(
+        nearBaseUrl,
+        queryParameters: {
+          'key': 'AIzaSyBCjxNhoGVDe6YpbS_SoU-mtzXbQgvKxUA',
+          'location': '${origin.latitude},${origin.longitude}',
+          'radius': '1500',
+          'type': 'bus',
+          'keyword': 'bus station',
+        },
+      );
+      print("Omar I'm testing getNEar");
       print(response.data);
       return response.data;
     } catch (error) {
