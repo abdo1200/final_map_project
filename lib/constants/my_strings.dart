@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 const loginScreen = '/';
 const otpScreen = '/otp-screen';
 const mapScreen = '/map-screen';
-const googleAPIKey = 'AIzaSyBCjxNhoGVDe6YpbS_SoU-mtzXbQgvKxUA';
 const suggestionsBaseUrl =
     'https://maps.googleapis.com/maps/api/place/autocomplete/json';
 const placeLocationBaseUrl =
